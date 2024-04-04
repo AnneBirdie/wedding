@@ -1,0 +1,382 @@
+
+@media (max-width: 767px){
+
+    /*Block 1.............................................*/
+    #title_S1{
+        margin-top: 35%;
+        min-width: 100%;
+    }
+    #ad_s1>div{
+        font-size: 80%;
+    }
+    .timer>p{
+         font-size: 60%;
+    }
+    .timer__items{
+         font-size: 60%;
+         margin-right: 30%;
+         margin-left: 30%;
+         max-width: 80%;
+    }
+    .timer__item{
+        margin-left: 10px;
+        margin-right: 0px;
+        min-width: 40px;
+    }
+    .timer__item:not(:last-child)::after {
+        content: ':';
+        position: absolute;
+        right: -7px;
+    }
+    .timer__item::before{
+        font-size: 10px;
+    }
+/*Block 2............................................*/
+.titles_s2{
+    min-width: 40%;
+}
+.title_s2{
+    font-size: 14px;
+}
+.text_s2{
+    margin-top: 15px;
+    font-size: 10px;
+}
+/*Block 3............................................*/
+    .titles_s3{
+        min-width: 70%;
+    }
+    #reg_form{
+        margin-top: 5%;
+        font-size: 14px;
+        border: solid 1px rgba(81, 74, 74, 1);
+        border-radius: 10px;
+        max-width: 100%;
+    }
+    #name, #surname, .form-row > button,   #comment, select>option, select{
+        margin-bottom: 2%;
+        font-size: 14px;
+        
+    }
+    .wrapper{
+        font-size: 12px;
+
+    }
+    .wrapper>li{
+        min-height: 50px;
+        max-height: 50px;
+    }
+
+    .form-row>label{
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+
+    /*Block 4............................................*/
+    .titles_s4{
+        min-width: 50%;
+    }
+    #number_guests{
+        font-size: 11px;
+    }
+    #board{
+        max-height: auto;
+        max-width: 100%;
+        margin-top: 10px;
+        border: solid 1px rgba(81, 74, 74, 1);
+        border-radius: 10px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;        
+    }
+    .guest{
+        margin: 7px;
+        transition: ease 0.5s;
+        cursor: pointer;
+        font-size: 14px;
+    }
+/*Block 5............................................*/
+.titles_s5{
+    min-width: 100%;
+}
+.question{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-top: 20px;
+}
+.answer{
+    font-size: 12px;
+    margin-top: 5px;
+}
+#colors{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.color{
+    width: 40px;
+    height: 40px;
+}
+/*Block 6............................................*/
+.titles_s6{
+    min-width: 100%;
+}
+.position{
+    grid-template-columns: 80px auto;
+}
+.occation{
+    padding-left: 15px;
+    font-size: 14px;
+}
+.timeDate{
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+/*Block 7............................................*/
+.titles_s7{
+    min-width: 60%;
+}
+.adress{
+    font-size: 14px;
+}
+#name_hall{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+#map{
+    max-height: 150px;
+    max-width: 100%;
+}
+#wish_form{
+    margin-top: 30px;
+    width: 90%;
+}
+.wish_name_btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    min-width: 100%;
+}
+.wish_name_btn>div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 30px;
+}
+#name_wish{
+    font-size: 14px;
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+
+}
+#comment_wish{
+    font-size: 14px;
+    width: 85%;
+    height: 100px;
+}
+.btn_wish{
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}
+/*Block 8............................................*/
+.titles_s8{
+    min-width: 70%;
+}
+.text_s8{
+    font-size: 14px;
+}
+.wish_each{
+    font-size: 14px;
+    min-width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#wishes{
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;    
+    border-radius: 10px;    
+}
+
+.quiz{
+    font-size: 11px;
+    padding-left: 13px;
+}
+/*Block 9............................................*/
+.titles_s9{
+    min-width: 100%;
+}
+#wish_form{
+    margin-top: 30px;
+    width: 90%;
+}
+.wish_name_btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    min-width: 100%;
+}
+.wish_name_btn>div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+#name_wish{
+    font-size: 14px;
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+
+}
+
+#comment_wish{
+    font-size: 14px;
+    width: 85%;
+    height: 100px;
+}
+
+.btn_wish{
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+}
+/*Block Footer............................................*/
+#footer{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#footer>div{
+    font-size: 10px;
+}
+.titles{
+    max-width: 50px;
+}
+}
+
+
+@media (max-width: 699px){
+    #scroll_btn{
+        left: 80%;
+        bottom: 0px;
+        top: 90%;
+        width: 35px;
+        height: 35px;
+        font-size: 25px;
+    }
+}
+@media (min-width: 700px) and (max-width: 1439px){
+    #scroll_btn{    
+        right: 0px;
+        left: 70%;
+        bottom: 0px;
+        top: 70%;
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .color{
+        width: 100px;
+        height: 100px;
+    }
+    .position{
+        grid-template-columns: 100px auto;
+        margin-bottom: 45px;   
+    }
+    .occation{
+        padding-left: 15px;
+        font-size: 30px;
+    }
+    .timeDate{
+        width: 150px;
+        font-size: 30px;
+    }
+    #wish_form{
+        width: 100%;
+    }
+    .titles_s3{
+        max-width: 70%;
+    }
+    #reg_form{
+        margin-top: 5%;
+        font-size: 26px;
+        border: solid 1px rgba(81, 74, 74, 1);
+        border-radius: 10px;
+        max-width: 100%;
+    }
+    #name, #surname, .form-row > button,   #comment, select>option, select{
+        margin-bottom: 2%;
+        font-size: 24px;
+        
+    }
+    .wrapper{
+        font-size: 26px;
+
+    }
+    .wrapper>li{
+        min-height: 70px;
+        max-height: 70px;
+    }
+    .form-row>label{
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }   
+    #footer>div{
+        font-size: 15px;
+    }
+    #scroll_btn{
+        position: fixed;
+        right: 50px;
+        bottom: 25px;
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+    }
+    #board{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1023px){
+    .checkbox.style-f .checkbox__checkmark:after {
+        width: 14px;
+        height: 14px; 
+    }
+
+    .checkbox.style-f .checkbox__body {
+        font-size: 10px;
+        margin-bottom: 3px;
+    }
+/*Чекбоксы..............................*/
+
+  .checkbox.style-f input:checked ~ .checkbox__checkmark {
+    background-color: rgba(132, 155, 110, 0.705);
+  }
+  .checkbox.style-f:hover input ~ .checkbox__checkmark {
+    background-color: rgba(132, 155, 110, 0.705);
+  }
+  .checkbox.style-f:hover input:checked ~ .checkbox__checkmark {
+    background-color: rgba(132, 155, 110, 0.705);
+  }
+  .checkbox.style-f .checkbox__checkmark {
+    height: 14px;
+    width: 14px;
+    background-color: rgba(132, 155, 110, 0.349);;
+  }
+
+
+}
